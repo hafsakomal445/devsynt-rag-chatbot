@@ -7,12 +7,28 @@
     "uploaded_at": "2026-09-03T11:17:48.562729",
     "error": null
   },
-  "84a3bb82-17ea-44ba-a81c-6d7adb6d071e": {
-    "doc_id": "84a3bb82-17ea-44ba-a81c-6d7adb6d071e",
-    "filename": "FAQs.pdf",
+  "c5a2a1e2-71eb-4fe2-b04a-4332452cb7dc": {
+    "doc_id": "c5a2a1e2-71eb-4fe2-b04a-4332452cb7dc",
+    "filename": "Company_Overview.pdf",
     "status": "processed",
-    "chunk_count": 4,
-    "uploaded_at": "2026-09-03T11:18:06.996246",
+    "chunk_count": 3,
+    "uploaded_at": "2026-09-03T11:55:59.308766",
+    "error": null
+  },
+  "242a49c7-11c9-491c-8e5b-d9a9eee10f53": {
+    "doc_id": "242a49c7-11c9-491c-8e5b-d9a9eee10f53",
+    "filename": "Property_Listings.pdf",
+    "status": "processed",
+    "chunk_count": 6,
+    "uploaded_at": "2026-09-03T13:27:17.742841",
+    "error": null
+  },
+  "ed39230e-c0b0-488b-b332-024363fe9f38": {
+    "doc_id": "ed39230e-c0b0-488b-b332-024363fe9f38",
+    "filename": "Services_and_Fees.pdf",
+    "status": "processed",
+    "chunk_count": 3,
+    "uploaded_at": "2026-09-03T13:27:27.075092",
     "error": null
   }
 }
