@@ -1,0 +1,18 @@
+{
+  "b9dfaa85-1ba4-4332-a7ab-0ca339c98a23": {
+    "doc_id": "b9dfaa85-1ba4-4332-a7ab-0ca339c98a23",
+    "filename": "FAQs.pdf",
+    "status": "processed",
+    "chunk_count": 4,
+    "uploaded_at": "2026-09-03T11:17:48.562729",
+    "error": null
+  },
+  "84a3bb82-17ea-44ba-a81c-6d7adb6d071e": {
+    "doc_id": "84a3bb82-17ea-44ba-a81c-6d7adb6d071e",
+    "filename": "FAQs.pdf",
+    "status": "processed",
+    "chunk_count": 4,
+    "uploaded_at": "2026-09-03T11:18:06.996246",
+    "error": null
+  }
+}
