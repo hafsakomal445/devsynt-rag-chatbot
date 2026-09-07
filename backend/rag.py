@@ -6,7 +6,7 @@ from vectorstore import VectorStore
 load_dotenv()
 
 CHAT_MODEL = "gemini-3.6-flash"  # fast + cheap, good for this use case
-DISTANCE_THRESHOLD = 1.2  # tune this after testing — higher distance = less relevant
+DISTANCE_THRESHOLD = 1.35  # tuned up from 1.2 — compound/multi-topic questions were being filtered out
 
 llm = ChatGoogleGenerativeAI(model=CHAT_MODEL, temperature=0)
 
@@ -45,7 +45,7 @@ def extract_text(response) -> str:
     return str(content)
 
 
-def answer_question(vs: VectorStore, question: str, top_k: int = 4) -> dict:
+def answer_question(vs: VectorStore, question: str, top_k: int = 6) -> dict:
     chunks = vs.search(question, top_k=top_k)
     relevant_chunks = [c for c in chunks if c["distance"] < DISTANCE_THRESHOLD]
 
